@@ -41,7 +41,7 @@ def generate_documentation(template_file):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python generate_documentation.py <path_to_cloudformation_template>")
+        print("Usage: python cfn_docs.py <path_to_cloudformation_template>")
         sys.exit(1)
     else:
         template_file = sys.argv[1]
