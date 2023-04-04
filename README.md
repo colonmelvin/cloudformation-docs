@@ -8,16 +8,10 @@ This Python script generates documentation for AWS CloudFormation templates in M
 
 ## Usage
 
-Run the script with the following command:
+Output to a Markdown file:
 
 ```sh
-python cfn_docs.py my_template.yaml
-```
-
-Output to a file:
-
-```sh
-python cfn_docs.py my_template.yaml > my_template.md
+python cfn_docs.py my_template.yaml my_template.md [--preview]
 ```
 
 # Example Table
